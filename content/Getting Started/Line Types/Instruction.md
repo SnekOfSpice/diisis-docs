@@ -1,4 +1,4 @@
-This page is about the Instruction line type. For more information on function calls in DIISIS, see [Accessing functions and variables in DIISIS](https://github.com/SnekOfSpice/dialog-editor/wiki/Accessing-functions-and-variables-in-DIISIS).
+This page is about the Instruction line type. For more information on function calls in DIISIS, see  [[Accessing functions and variables in DIISIS]].
 
 
 
@@ -6,7 +6,7 @@ This page is about the Instruction line type. For more information on function c
 
 
 # The Line
-Instructions have two components: The function call itself and a delay. The call gets [sent to Godot](https://github.com/SnekOfSpice/dialog-editor/wiki/Accessing-functions-and-variables-in-DIISIS).
+Instructions have two components: The function call itself and a delay. The call gets sent to Godot.
 
 ## Delay
 

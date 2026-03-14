@@ -1,4 +1,4 @@
-Once you have [created your dialog](https://github.com/SnekOfSpice/dialog-editor/wiki/Editor-Overview), it is time to put it into the game.
+Once you have [[Editor Overview|created your dialog]], it is time to put it into the game.
 
 # Configuring your project
 ## Configuring Parser

@@ -4,7 +4,7 @@
     ![grafik](https://github.com/user-attachments/assets/b05bdf2a-9342-4dda-b3cd-ed55708ea14d)
 2. delete addon files (``addons/diisis``)
     > Watch out you don't delete your script.
-3. [reinstall](https://github.com/SnekOfSpice/dialog-editor/wiki/Get-the-plugin)
+3. [[Get the Plugin|reinstall]]
     - don't forget to enable the plugin again, and reload the editor afterwards
 
 
@@ -19,5 +19,5 @@ I try to make my code backwards-compatible where possible, but sometimes new ver
 
 2. By downloading the plugin again, you'll have downloaded duplicates of all scenes in the VN template. This will conflict with their ``class_name``s. **Delete the new files in the template in the plugin folder (all contents of ``addons/diisis/templates/visual_novel``).**
 
-3. Run through the [automated setup](https://github.com/SnekOfSpice/dialog-editor/wiki/Using-the-visual-novel-template#automated-setup) again.
+3. Run through the [[Getting Started#Automated Setup]] again.
     Don't forget to reload the project again.

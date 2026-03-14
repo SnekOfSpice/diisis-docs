@@ -1,5 +1,5 @@
 # Editor & Parser
-DIISIS has two core components: An [editor](https://github.com/SnekOfSpice/dialog-editor/wiki/Editor-Overview) to create a JSON file. That file is then parser by a [Parser](https://github.com/SnekOfSpice/dialog-editor/wiki/LineReader-&-Parser) and displayed with a dedicated LineReader node.
+DIISIS has two core components: An [[Editor Overview|editor]] to create a JSON file. That file is then parser by a Parser and displayed with a dedicated LineReader node. See [[LineReader & Parser]].
 
 ![grafik](https://github.com/user-attachments/assets/cec562c6-6bb1-4532-b61f-7bfa4c12578d)
 

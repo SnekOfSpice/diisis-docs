@@ -11,11 +11,11 @@ When you first add a Choice line, it will be empty. Press the **+ button** to ad
 A choice item has the following anatomy:
 1. Delete and move the choice item
 2. Selection and action menu (copy, paste, cut)
-3. [Conditionals](https://github.com/SnekOfSpice/dialog-editor/wiki/Facts-&-Conditionals#choice-items)
+3. [[Facts & Conditionals#Choice Items|Conditionals]]
 4. Jump flags
 5. View behavior
 6. Display Texts
-7. [Facts](https://github.com/SnekOfSpice/dialog-editor/wiki/Facts-&-Conditionals#choice-item)
+7. [[Facts & Conditionals#Choice Item|Facts]]
 
 ![grafik](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/e3b248b5-6684-4829-a4b6-c9a477cc41db)
 

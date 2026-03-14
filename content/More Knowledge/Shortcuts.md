@@ -9,7 +9,7 @@ Ctrl +
 - T: Open Page Window
 - Y: Redo
 - Z: Undo
-- 1 - 4: Select Line Type ([Text](https://github.com/SnekOfSpice/dialog-editor/wiki/Line-Type:-Text), [Choice](https://github.com/SnekOfSpice/dialog-editor/wiki/Line-Type:-Choice), [Instruction](https://github.com/SnekOfSpice/dialog-editor/wiki/Line-Type:-Instruction), Folder)
+- 1 - 4: Select Line Type
 - -: Scale editor down
 - +: Scale editor up
 

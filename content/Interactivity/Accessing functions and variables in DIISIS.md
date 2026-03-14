@@ -1,11 +1,11 @@
 # Boundaries
 
-Within the function bodies discussed here, you need to handle calls to the rest of the game architecture yourself. If you use the [VN template](https://github.com/SnekOfSpice/dialog-editor/wiki/Using-the-visual-novel-template), the project will include several functions already defined, with the matching game architecture to match.
+Within the function bodies discussed here, you need to handle calls to the rest of the game architecture yourself. If you use the [[Getting Started|VN template]] the project will include several functions already defined, with the matching game architecture to match.
 
-DIISIS *itself* doesn't know what a background music is. These are all systems you have to implement yourself if you don't use a template from the project.
+DIISIS *itself* doesn't know what background music is. These are all systems you have to implement yourself if you don't use a template from the project.
 
 # Exposing Scripts
-DIISIS can call functions from two places: LineReaders and Autoloads, but those need to be exposed to DIISIS first. To do this, go to Setup > Functions & Variables.
+DIISIS can call functions from two places: LineReaders and Autoloads, but those need to be exposed to DIISIS first. To do this, go to Setup > Functions & Variables. For more info, see [[Configuring Runtime Method Providers]].
 
 ## LineReader
 Somewhere in your project, you'll have a node that extends LineReader, which will contain the functions you want to call from within DIISIS. Conventionally, these would be fairly close to the root of your game. Enter the path to that script manually, or let DIISIS try to find it itself with the "Auto Search" button. **Don't forget to save the changes at the bottom.**
@@ -52,7 +52,7 @@ There's 3 types of tag relevant for our purposes here:
 
 If a ``call`` tag returns true, the LineReader will wait until ``Parser.function_acceded()`` has been called, just like with instruction lines. A ``func`` tag will **not** cause LineReader to wait and instead just insert a String ``"true"`` if you try to. 
 
-For further reading on tags, see [here](https://github.com/SnekOfSpice/dialog-editor/wiki/Line-Type:-Text#inline-tags)
+For further reading on tags, see [[Text#Inline Tags]].
 
 
 # Helpful tips

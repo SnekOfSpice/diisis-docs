@@ -7,7 +7,7 @@ All text displayed needs to be allocated to an actor / speaker / character / wha
 
 ![grafik](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/955affc4-3abc-4ea8-ae8d-303c588c037f)
 
-Name a stringkit to the key you want to use to address your actors, e.g. "characters", and enter the different values you'll need. Note that these are internal keys, and the names that actually get displayed to the player can be overridden [at a later point in time](https://github.com/SnekOfSpice/dialog-editor/wiki/Quick-Start-Guide-%E2%80%90-LineReader-&-Parser#name-setup).
+Name a stringkit to the key you want to use to address your actors, e.g. "characters", and enter the different values you'll need. Note that these are internal keys, and the names that actually get displayed to the player can be overridden [[LineReader & Parser#Name Setup|at a later point in time]].
 
 ![grafik](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/cac40ca1-29ad-4aaf-b2cc-c1d3e6878821)
 

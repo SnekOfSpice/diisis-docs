@@ -29,7 +29,7 @@ DIISIS relies on several autoloads that it will add automatically upon getting l
 
 ![grafik](https://github.com/user-attachments/assets/1e57c485-7cce-4129-8881-a204265f8a36)
 
-### Get started using the wiki! Make a [visual novel with the template](https://github.com/SnekOfSpice/dialog-editor/wiki/Using-the-visual-novel-template) or integrate DIISIS into your own workflow.
+### Get started using the wiki! Make a [[Getting Started||visual novel with the template]] or integrate DIISIS into your own workflow.
 
 ***
 [Asset Library link](https://godotengine.org/asset-library/asset/3188)

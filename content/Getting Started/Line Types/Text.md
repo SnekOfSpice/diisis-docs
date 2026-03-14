@@ -3,15 +3,15 @@
 Lines of the Text type are what determines the bulk of the text that will be displayed in your game.
 
 ## Actor Names
-All text displayed needs to be allocated to an actor / speaker / character / whatever. To create those, go to [Dropdowns](https://github.com/SnekOfSpice/dialog-editor/wiki/Dropdowns) in the Setup menu.
+All text displayed needs to be allocated to an actor / speaker / character / whatever. To create those, go to [[Stringkit]] in the Setup menu.
 
 ![grafik](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/955affc4-3abc-4ea8-ae8d-303c588c037f)
 
-Name a dropdown to the key you want to use to address your actors, e.g. "characters", and enter the different values you'll need. Note that these are internal keys, and the names that actually get displayed to the player can be overridden [at a later point in time](https://github.com/SnekOfSpice/dialog-editor/wiki/Quick-Start-Guide-%E2%80%90-LineReader-&-Parser#name-setup).
+Name a stringkit to the key you want to use to address your actors, e.g. "characters", and enter the different values you'll need. Note that these are internal keys, and the names that actually get displayed to the player can be overridden [at a later point in time](https://github.com/SnekOfSpice/dialog-editor/wiki/Quick-Start-Guide-%E2%80%90-LineReader-&-Parser#name-setup).
 
 ![grafik](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/cac40ca1-29ad-4aaf-b2cc-c1d3e6878821)
 
-Then, head over to the DialogSyntax tab, and select the dropdown you just created to be the speaking dropdown, using the radio buttons to the right.
+Then, head over to the DialogSyntax tab, and select the stringkit you just created to be the speaking stringkit, using the radio buttons to the right.
 
 ![grafik](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/07a36420-f649-4883-8e3d-938ad5d45499)
 
@@ -30,11 +30,11 @@ This would already be sufficient to display text in your game.
 
 Additionally to the names of actors, you can also pass different arguments for each spoken line of text.
 
-Configuring which dropdowns are treated as dialog arguments can also be adjusted in the DialogSyntax tab of the Dropdowns menu.
+Configuring which stringkit  are treated as dialog arguments can also be adjusted in the DialogSyntax tab of the Stringkits menu.
 
 ![grafik](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/c7e19c79-fc08-418a-9548-e9d1b405cd09)
 
-When you move the cursor in front of the colon `:` after the actor, and enter a curly brace `{`, you can enter dialog arguments. This can be used to e.g. give your characters varying emotions as they speak. See [Using Event Signals](https://github.com/SnekOfSpice/dialog-editor/wiki/Using-Event-Signals).
+When you move the cursor in front of the colon `:` after the actor, and enter a curly brace `{`, you can enter dialog arguments. This can be used to e.g. give your characters varying emotions as they speak. See [[Using Event Signals]].
 
 ![dialog_args](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/102366ce-f126-4e20-ae89-eb9a0125df22)
 
@@ -84,7 +84,7 @@ Text speed overrides.
 
 `<ts_abs:VALUE>` sets the text speed to an absolute value. `<ts_rel:VALUE>` multiplies the text speed by the given value. 
 
-They override each other and always use the LineReader's base text speed / cannot be chained. Suppose a text speed of 30, then `text <ts_abs:50>more text <ts_rel:2>even more text` would result in a text speed of [50, then 60], not [50, then 100].
+They override each other and always use the LineReader's base text speed / cannot be chained. Suppose a text speed of 30, then `text <ts_abs:50>more text <ts_rel:2>even more text` would result in a text speed of \[50, then 60], not \[50, then 100].
 
 The resulting text speed overrides LineReader.text_speed for that line chunk. (So until a new line starts with `[]>`). The resulting text speed is clamped between 1 and the highest text speed below instant. **These will have no effect when text speed is set to Instant.**
 

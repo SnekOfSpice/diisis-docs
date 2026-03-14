@@ -7,10 +7,10 @@ Once you have [created your dialog](https://github.com/SnekOfSpice/dialog-editor
 Here you can also adapt the look of the history.
 
 ## Configuring LineReader
-`LineReader` is the other part of this equasion. It is a node you can add with `CTRL + A` like any other node. Add it to the scene where you want the text from your file to be read in.
+`LineReader` is the other part of this equation. It is a node you can add with `CTRL + A` like any other node. Add it to the scene where you want the text from your file to be read in.
 
 ### Name Setup
-When a new character starts speaking, the `name_label` will need to be upadted accordingly. For simplicity of overrides, the line reader offers a `name_map`, which should have `String` as both key and value. Keys should be the raw internal strings used in the [dialog syntax dropdown](https://github.com/SnekOfSpice/dialog-editor/wiki/Line-Type:-Text#actor-names), and the value is the string you want to appear in the label.
+When a new character starts speaking, the `name_label` will need to be updated accordingly. For simplicity of overrides, the line reader offers a `name_map`, which should have `String` as both key and value. Keys should be the raw internal strings used in the [[Text#Actor Names|Speaker Stringkit]], and the value is the string you want to appear in the label.
 
 If no override is found, the raw string will be displayed.
 
@@ -23,10 +23,6 @@ A simple visual novel-style layout may look like this:
 |-----------|----------------|------------------------------|
 | ![grafik](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/c1f5a0b5-67f3-499c-bf62-d4ca4e5aee20) | ![grafik](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/01eb9ad4-4143-4103-a821-134ef2557771)| ![grafik](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/3d32873e-f47c-4a46-97a6-5898f9f6c840)|
 
-
-
-
-You will also see the `Handler` node. It inherits from `InstructionHandler` and cannot be omitted, even if you do not use instructions in your game. For the simplest version, add a blank `Node` and give it the `InstructionHandler.gd` script. For usage of instructions, head to [here](https://github.com/SnekOfSpice/dialog-editor/wiki/Line-Type:-Instruction).
 
 # Controlling the gamestate
 ## Starting to read the dialog

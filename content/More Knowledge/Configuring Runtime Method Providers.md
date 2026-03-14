@@ -1,0 +1,1 @@
+On creating a new file, DIISIS will try to find all your LineReader scripts to give you autocompletion. If you wanna do this manually, go to Setup > Functions & Variables, and select your sources for callables from the Paths and Autoloads tabs.

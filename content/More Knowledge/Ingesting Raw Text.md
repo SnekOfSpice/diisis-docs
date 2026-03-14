@@ -24,7 +24,7 @@ etc...
 <img width="421" height="178" alt="image" src="https://github.com/user-attachments/assets/784b0d21-7a39-4bcf-9d96-1f8351c22fbd" />
 
 
-You can also try and have DIISIS auto-generate these based on your [dropdown setup](https://github.com/SnekOfSpice/dialog-editor/wiki/Dropdowns) using the "populate from character" button.
+You can also try and have DIISIS auto-generate these based on your [[Stringkit]] setup using the "populate from character" button.
 
 Alternatively, you can override these settings by writing out an actor declaration, newline "LINE" and then the content as usual. Then you have to declare all the actors however, even those that do not change.
 

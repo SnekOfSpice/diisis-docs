@@ -1,1 +1,1 @@
-wasnt on github lol
+Used to cluster lines together. Can be nested. Useful for modular dialogue

@@ -10,10 +10,10 @@ DIISIS is structured into Pages and Lines. These are rough guides for laying out
 ![grafik](https://github.com/user-attachments/assets/49e86174-5b70-4e3a-b52e-f7eba78e669d)
 
 Lines can have one of four types:
-* [Text](https://github.com/SnekOfSpice/dialog-editor/wiki/Line-Type:-Text): Displays text to the screen, using a bespoke syntax.
-* [Choice](https://github.com/SnekOfSpice/dialog-editor/wiki/Line-Type:-Choice): Offers choices to the player. Can also be used to implictly switch pages.
-* [Instruction](https://github.com/SnekOfSpice/dialog-editor/wiki/Line-Type:-Instruction): Calls functions to interact with the rest of the game.
-* Folder: Structures lines into groups to assist with reactivity in-game and readability in-editor.
+* [[Text]]: Displays text to the screen, using a bespoke syntax.
+* [[Choice]]: Offers choices to the player. Can also be used to implictly switch pages.
+* [[Instruction]]: Calls functions to interact with the rest of the game.
+* [[Folder]]: Structures lines into groups to assist with reactivity in-game and readability in-editor.
 
 
 # Facts & Conditionals

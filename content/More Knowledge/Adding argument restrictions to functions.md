@@ -12,13 +12,13 @@ Within the argument hint, a double colon ``::=`` means the default comes from DI
 When writing functions, if a default argument is before a mandatory argument, use ``*`` to access the default.
 
 
-# Dropdown Typing
-Additionally, you can type any String argument as [Dropdown](https://github.com/SnekOfSpice/dialog-editor/wiki/Dropdowns).
+# Stringkit Typing
+Additionally, you can type any String argument as [[Stringkit]].
 
 ![image](https://github.com/user-attachments/assets/e386ee1f-e463-42a6-a2ea-3b67ddfc2661)
 
 
-If you do this, the argument needs to be one of the options of the dropdown. e.g. ``foo(bar:character)`` and character is a dropdown. You can permit multiple dropdowns as types. Then, the argument will be valid as long as the argument is an option in any one of the dropdowns.
+If you do this, the argument needs to be one of the options of the stringkit. e.g. ``foo(bar:character)`` and character is a stringkit. You can permit multiple stringkit as types. Then, the argument will be valid as long as the argument is an option in any one of the stringkits.
 
 
 

@@ -23,7 +23,7 @@
 🧠 **More Knowledge**
 - [[Upgrading to a new version]]
 - [[Shortcuts]]
-- [[Dropdowns]]
+- [[Stringkit]]
 - [[Ingesting Raw Text]]
 - [[Adding argument restrictions to functions]]
 ***

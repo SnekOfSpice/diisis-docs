@@ -3,7 +3,7 @@ Add Character to ``game_stage.tscn``
 
 ![grafik](https://github.com/user-attachments/assets/768dc0f2-5c6a-4908-95b1-a02caa6e69ce)
 
-Add respective dropdowns & set the emotions you want to start out with. Adding "neutral" and "invisible" is a good idea. ("invisible" is a reserved emotion that does what you think it does.)
+Add respective stringkits & set the emotions you want to start out with. Adding "neutral" and "invisible" is a good idea. ("invisible" is a reserved emotion that does what you think it does.)
 
 ![grafik](https://github.com/user-attachments/assets/c72141f2-4392-4eeb-bf28-60b1865d48af)
 

@@ -1,6 +1,7 @@
 ---
-title: Welcome to DIISIS
+title: DIISIS WIKI
 description: This website teaches you how to use DIISIS' features.
+icon: icon_buttonbw smooth.png
 ---
 
 Welcome to the DIISIS wiki!
@@ -13,9 +14,7 @@ If you want to do more bespoke or complex things however, you will also find hel
 
 Use the [[_Sidebar|Sidebar]] to get started and get the plugin at [[Get the Plugin]] :3
 
-> DIISIS is currently in active development and I am very disorganized. This wiki contains some features that are not part of the AssetLib version of the plugin yet, but everything that is written here is deffo on the [main branch](https://github.com/SnekOfSpice/dialog-editor/tree/main).
-
-> Except for the obsolete stuff I haven't removed from the docs yet.
+> DIISIS is currently in active development and I am very disorganized. This wiki will sometimes contain features that are not part of the AssetLib version of the plugin yet or anymore, but I try to keep this wiki mostly up to date
 
 
-![[quartz/public/Assets/blinkiesCafe-bQ.gif]] ![[quartz/public/Assets/blinkiesCafe-3f.gif]] ![[let me fester under your skin.gif]]
+![[blinkiesCafe-bQ.gif|150]] ![[blinkiesCafe-3f.gif]] ![[let me fester under your skin.gif]]

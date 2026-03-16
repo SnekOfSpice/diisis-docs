@@ -1,5 +1,7 @@
 # Editor & Parser
-DIISIS has two core components: An [[Editor Overview|editor]] to create a JSON file. That file is then parser by a Parser and displayed with a dedicated LineReader node. See [[LineReader & Parser]].
+DIISIS has two core components:
+1. Editor: An [[Editor Overview|editor]] to create a JSON file.
+2. Runtime: That file is then loaded into memory by the Parser autoload and can be traversed and displayed with a LineReader node. See [[LineReader & Parser]].
 
 ![grafik](https://github.com/user-attachments/assets/cec562c6-6bb1-4532-b61f-7bfa4c12578d)
 
@@ -17,6 +19,6 @@ Lines can have one of four types:
 
 
 # Facts & Conditionals
-DIISIS comes with a boolean fact system. For any page, line, or choice item, you can declare any fact to become `true` or `false` when that point of the dialog is reached.
+DIISIS comes with a fact system. For any page, line, or choice item, you can declare any fact to become `true` or `false`, or any integer when that point of the dialog is reached. Note that you cannot switch data types for a fact.
 
 With conditionals attached to individual lines or choice items, you can make the game reactive to player decisions.

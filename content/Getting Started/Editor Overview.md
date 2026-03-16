@@ -34,22 +34,22 @@ You can change the embed setting in Project Settings > DIISIS > Plugin > View > 
 
 ## Line Controls
 
-1. Move line (use shift to move across folders)
-2. Add line above/below: Inserts a new line of the selected line type
-3. Edit [[High-Level Overview#Facts & Conditionals]]
-4. Select & Action menu (copy, cut, paste)
-5. Count of references to this line from loopback (LB) and jump page (JP) in choices
-6. Delete line
+1. Skip line
+2. Line Index
+3. Select & Action menu (copy, cut, paste)
+4. Edit [[High-Level Overview#Facts & Conditionals|Facts & Conditionals]]
+5. Move line (use shift to move across folders)
+6. Add line above/below: Inserts a new line of the selected line type
+7. Delete line
 
-![grafik](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/6e2b77f3-0dab-4c5d-8350-0e6b2df62ddf)
-
+![[Pasted image 20260316204402.png]]
 # Setting up the document
 **MANDATORY:** [[Text#Actor Names]]
 
 The rest is optional:
 - [[Configuring Runtime Method Providers]]
 
-# Exporting
-Using the context menu, you can either save the file or use the Save As option to give it a custom name. These output files can be saved anywhere inside ``://res``The last file to be saved in the DIISIS window is the file to be read by the plugin (this can be overridden). Head to [[LineReader & Parser]] to see how to display your work in-game.
+# Saving
+Using CTRL+S or the context menu, you can save the script file. These output files can be saved anywhere inside ``res://``The last file to be saved in the DIISIS window is the file to be read by the plugin (this can be overridden in the Parser autoload node). DIISIS will also automatically sav your file when you run the project, if enabled in your Preferences (Editor > Preferences). Head to [[LineReader & Parser]] to see how to display your work in-game.
 
-![grafik](https://github.com/SnekOfSpice/dialog-editor/assets/69637995/934a59f6-68d1-48a3-bb0a-3663445fd59a)
+![[Pasted image 20260316204636.png]]

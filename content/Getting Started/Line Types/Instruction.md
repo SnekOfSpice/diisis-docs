@@ -26,7 +26,7 @@ option. This may cause small stutters but will validate all functions as soon as
 
 # Reverse Instructions
 
-The function ``LineReader.request_go_back()`` allows you to go back up the dialogue tree to almost any previous point in time. (Until you hit a Choice or Folder).
+The function ``LineReader.request_rollback()`` allows you to go back up the dialogue tree to any previous point in time.
 
 The ![image](https://github.com/user-attachments/assets/3cf208c6-4854-4d2f-9158-f9400fb18b7a) "Reverse" toggle determines if the function will be called again as you do this. Personally, I don't use them for scenic transitions like fades-to-black or chapter splash screens, but enable "reverse" for SFX or screen shakes.
 
